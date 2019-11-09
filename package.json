@@ -1,35 +1,20 @@
 {
-  "name": "elcieguito",
+  "name": "web-el-cieguito",
   "version": "1.0.0",
-  "description": "El Cieguito production company website.",
-  "main": "bundle.js",
+  "description": "Website for \"El Cieguito\" production company.",
+  "main": "index.js",
   "scripts": {
-    "build": "npm run webpack-watch",
-    "start-dev": "webpack-dev-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inkcoming/elcieguito.git"
-  },
-  "keywords": [
-    "cieguito",
-    "landing"
-  ],
   "author": "Maximiliano Blanco",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/inkcoming/elcieguito/issues"
-  },
-  "homepage": "https://github.com/inkcoming/elcieguito#readme",
   "devDependencies": {
-    "@babel/cli": "^7.6.0",
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8"
+    "sass": "^1.23.1",
+    "scss": "^0.2.4"
   },
   "dependencies": {
-    "babel-loader": "^8.0.6",
-    "webpack-dev-server": "^3.8.0"
+    "jump.js": "^1.0.2",
+    "normalize.css": "^8.0.1",
+    "yt-player": "^3.4.3"
   }
 }
